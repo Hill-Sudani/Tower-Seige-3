@@ -24,9 +24,13 @@ var catapault;
 var score = 0;
 var bg;
 
+var light,dark;
+
 function preload()
 {
   polygonImage = loadImage("polygon.png");
+  light = loadImage("light.png");
+  dark = loadImage("dark.png");
 }
 
 function setup() 
@@ -173,7 +177,7 @@ function mouseDragged()
 
 function mouseReleased()
 {
-  catapault.launch();
+  slingshot.launch();
 }
 
 function keyPressed()
@@ -194,10 +198,10 @@ async function BG()
 
   if(hour>=6 && hour <= 19)
   {
-    bg = color(48,149,180);
+    bg = light;
   }
   else
   {
-    bg = color(82,86,89);
+    bg = dark;
   }
 }
