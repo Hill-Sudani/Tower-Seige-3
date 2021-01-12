@@ -6,6 +6,7 @@ class block
         {
             restitution: 0.5
         };
+        this.visiblity = 255;
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
@@ -49,7 +50,7 @@ class block
 
     score()
         {
-            if(this.visiblity<255&&this.visiblity>-5)
+            if(this.visiblity<0&&this.visiblity>-200)
             {
                 score = score + 10;
             }
