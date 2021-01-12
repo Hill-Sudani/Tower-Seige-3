@@ -24,13 +24,10 @@ var catapault;
 var score = 0;
 var bg;
 
-var light,dark;
-
 function preload()
 {
+  BG();
   polygonImage = loadImage("polygon.png");
-  light = loadImage("light.png");
-  dark = loadImage("dark.png");
 }
 
 function setup() 
@@ -198,10 +195,10 @@ async function BG()
 
   if(hour>=6 && hour <= 19)
   {
-    bg = light;
+    bg = loadImage("light.png");
   }
   else
   {
-    bg = dark;
+    bg = loadImage("loadImage("dark.png");;
   }
 }
