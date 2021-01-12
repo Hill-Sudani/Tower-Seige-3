@@ -42,8 +42,8 @@ class block
             fill("white");
             strokeWeight(5);
             stroke("green");
-            rect(0, 0, this.width, this.height);
-            pop();*/
+            rect(0, 0, this.width, this.height);*/
+            pop();
         }
     
     }
