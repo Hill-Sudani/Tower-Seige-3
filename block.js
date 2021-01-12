@@ -52,7 +52,7 @@ class block
         {
             if(this.visiblity<0&&this.visiblity>-200)
             {
-                score = score + 10;
+                score = score + 1;
             }
         }
 }
