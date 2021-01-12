@@ -195,10 +195,10 @@ async function BG()
 
   if(hour>=6 && hour <= 19)
   {
-    bg = loadImage("light.png");
+    bg = loadImage("light.jpg");
   }
   else
   {
-    bg = loadImage("loadImage("dark.png");;
+    bg = loadImage("dark.jpg");
   }
 }
