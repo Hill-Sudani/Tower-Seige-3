@@ -37,13 +37,13 @@ class block
             World.remove(world,this.body);
             push();
             this.visiblity = this.visiblity-5;
-            tint(255,this.visiblity);
+            /*tint(255,this.visiblity);
             rectMode(CENTER);
             fill("white");
             strokeWeight(5);
             stroke("green");
             rect(0, 0, this.width, this.height);
-            pop();
+            pop();*/
         }
     
     }
