@@ -22,7 +22,7 @@ var polypos;
 var catapault;
 
 var score = 0;
-var bg;
+var bg = 'images/light.png;
 
 function preload()
 {
