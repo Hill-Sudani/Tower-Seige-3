@@ -84,7 +84,10 @@ function setup()
 
 function draw() 
 {
+  if(backgroundImg){
+    background = backgroundImg
   Engine.update(engine);
+  }
 
   background(bg);  
   BG();
