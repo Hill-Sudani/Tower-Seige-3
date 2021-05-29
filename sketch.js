@@ -22,7 +22,7 @@ var polypos;
 var catapault;
 
 var score = 0;
-var bg = 'images/light.png;
+var bg = 'light.jpg;
 
 function preload()
 {
@@ -84,13 +84,13 @@ function setup()
 
 function draw() 
 {
-  if(backgroundImg){
-    background = backgroundImg
-  Engine.update(engine);
-  }
+//   if(backgroundImg){
+//     background = backgroundImg
+//   Engine.update(engine);
+//   }
 
-  background(bg);  
-  BG();
+//   background(bg);  
+//   BG();
 
   imageMode(CENTER);
   image(polygonImage,polypos.x,polypos.y,50,50);
